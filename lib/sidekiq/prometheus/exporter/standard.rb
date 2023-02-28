@@ -21,7 +21,7 @@ module Sidekiq
           @overview_stats = Sidekiq::Stats.new
           @queues_stats = queues_stats
           @workers_stats = workers_stats
-          @max_processing_times = max_processing_times
+          #@max_processing_times = max_processing_times
         end
 
         def to_s
